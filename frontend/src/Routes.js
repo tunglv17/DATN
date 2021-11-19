@@ -5,11 +5,12 @@ import LayoutWebsite from './layout/Website'
 import AboutPage from './pages/AboutPage'
 import HomePage from './pages/HomePage'
 import Error404 from './pages/404'
+import BlogPage from './pages/BlogPage'
 import ContactPage from './pages/ContactPage'
-import AllRoomPage from './pages/AllRoomPage'
+import AlLRooms from './pages/AlLRooms'
 
 
-const Routers = () => {
+const Routers = (props) => {
     return (
         <>
             <Router>
@@ -23,19 +24,19 @@ const Routers = () => {
                         <LayoutWebsite>
                             <Switch>
                                 <Route exact path="/">
-                                    <HomePage />
+                                    <HomePage {...props}/>
                                 </Route>
                                 <Route exact path="/about">
                                     <AboutPage />
+                                </Route>
+                                <Route exact path="/blog">
+                                    <BlogPage />
                                 </Route>
                                 <Route exact path="/contact">
                                     <ContactPage />
                                 </Route>
-                                <Route exact path="/about">
-                                    <AboutPage />
-                                </Route>
                                 <Route exact path="/allroom">
-                                    <AllRoomPage />
+                                    <AlLRooms />
                                 </Route>
                                 <Route path="*">
                                     <Error404 />

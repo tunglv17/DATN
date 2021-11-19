@@ -3,37 +3,39 @@ import React from 'react'
 const AboutContent = () => {
  return (
   <div>
-   <section className="ftco-section ftc-no-pb ftc-no-pt">
-    <div className="container">
-     <div className="row">
-      <div className="col-md-5 p-md-5 img img-2 img-3 d-flex justify-content-center align-items-center" style={{ backgroundImage: 'url(images/bg_2.jpg)' }}>
-       <a href="https://vimeo.com/45830194" className="icon popup-vimeo d-flex justify-content-center align-items-center">
-        <span className="icon-play" />
-       </a>
-      </div>
-      <div className="col-md-7 py-5 wrap-about pb-md-5 ftco-animate">
-       <div className="heading-section heading-section-wo-line pt-md-5 pl-md-5 mb-5">
-        <div className="ml-md-0">
-         <span className="subheading">Chào mừng đến với HappyDay</span>
-         <h2 className="mb-4">Chào mừng đến với Resort của chúng tôi</h2>
+   <section className="ftco-section ftco-about-section">
+    <div className="container-xl">
+     <div className="row g-xl-5">
+      <div className="col-md-6">
+       <div className="row">
+        <div className="col-md-6">
+         <div className="f-services d-md-flex flex-md-column-reverse">
+          <div className="img w-100" style={{ backgroundImage: 'url(images/xf-services.jpg.pagespeed.ic.drSZRkzO0f.jpg)' }} />
+          <div className="text w-100 p-4 text-center mb-md-4">
+           <div className="icon"><span className="flaticon-pillow" /></div>
+           <h3>Cozy Room</h3>
+           <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+          </div>
+         </div>
+        </div>
+        <div className="col-md-6">
+         <div className="f-services">
+          <div className="img w-100 mb-md-4" style={{ backgroundImage: 'url(images/xf-services-2.jpg.pagespeed.ic._hiWsiOtrq.jpg)' }} />
+          <div className="text w-100 p-4 text-center">
+           <div className="icon"><span className="flaticon-special" /></div>
+           <h3>Special Offers</h3>
+           <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+          </div>
+         </div>
         </div>
        </div>
-       <div className="pb-md-5">
-        <p>Trên đường đi, cô đã gặp một bản sao. Bản sao cảnh báo Văn bản Người mù, rằng nơi xuất phát của nó sẽ
-         được viết lại hàng nghìn lần và mọi thứ còn lại từ nguồn gốc của nó sẽ là từ "và" và Văn bản Người mù nhỏ
-         nên quay lại và trở lại như cũ, đất nước an toàn. Nhưng không có gì mà bản sao nói có thể thuyết phục cô
-         ấy và vì vậy không mất nhiều thời gian cho đến khi một vài Copy Writers quỷ quyệt phục kích cô ấy, khiến
-         cô ấy say xỉn với Longe và Parole và kéo cô ấy vào cơ quan của họ, nơi họ lạm dụng cô ấy vì họ.</p>
-        <p>Khi đến những ngọn đồi đầu tiên của Dãy núi Italic, cô có cái nhìn cuối cùng về đường chân trời của
-         Bookmarksgrove quê hương cô, dòng tiêu đề của Làng Alphabet và dòng phụ trên con đường của riêng cô, Line
-         Lane. Đáng tiếc, một câu hỏi thần thoại lướt qua má cô, rồi cô tiếp tục đi.
-        </p>
-        <ul className="ftco-social d-flex">
-         <li className="ftco-animate"><a href="#"><span className="icon-twitter" /></a></li>
-         <li className="ftco-animate"><a href="#"><span className="icon-facebook" /></a></li>
-         <li className="ftco-animate"><a href="#"><span className="icon-google-plus" /></a></li>
-         <li className="ftco-animate"><a href="#"><span className="icon-instagram" /></a></li>
-        </ul>
+      </div>
+      <div className="col-md-6 heading-section d-flex align-items-center">
+       <div className="mt-5 mt-md-0">
+        <span className="subheading">About Us</span>
+        <h2 className="mb-4">Unwind A Hotel Booking Agency</h2>
+        <p className="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        <p><a href="#" className="btn btn-primary py-3 px-4">Book Your Room Now</a></p>
        </div>
       </div>
      </div>
